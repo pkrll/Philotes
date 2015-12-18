@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "de31cd1eb359eeaae24a85f721923932",
+    "content-hash": "7843a429360cb88c133a734f7e735f81",
+    "packages": [
+        {
+            "name": "saturn/hyperion",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pkrll/Hyperion.git",
+                "reference": "3d6a98765d97622b06639aec30e58870afd120c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pkrll/Hyperion/zipball/3d6a98765d97622b06639aec30e58870afd120c2",
+                "reference": "3d6a98765d97622b06639aec30e58870afd120c2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "hyperion\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ardalan Samimi",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Lightweight MVC framework",
+            "homepage": "https://github.com/pkrll/Hyperion",
+            "keywords": [
+                "framework",
+                "hyperion",
+                "mvc"
+            ],
+            "time": "2015-11-17 12:06:34"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
