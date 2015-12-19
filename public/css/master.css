@@ -65,12 +65,7 @@ body {
     width: 78%;
 }
 
-.contentBody > div li {
-    padding: 12px 10px;
-
-}
-
-.contentBody-sideMenu ul:last-of-type {
+.contentBody-sideMenu ul.subMenu {
     border-top: 1px solid rgb(222,222,222);
 }
 
@@ -80,14 +75,34 @@ body {
     padding: 0;
 }
 
-.contentBody-sideMenu ul li:hover {
-    background: #12aaff;
-    color: #fff;
+.contentBody-sideMenu ul li {
+    padding: 0;
+}
+
+.contentBody-sideMenu ul li a {
+    color:              #000;
+    display:            block;
+    padding:            12px 10px;
+    text-decoration:    none;
+}
+
+
+.contentBody-sideMenu ul li a:hover {
+    cursor: default;
+}
+
+
+.contentBody-sideMenu ul li a[href*="/"]:hover {
+    /*background: #;*/
+    color: #12aaff;
     cursor: pointer;
 }
 
-.contentBody-sideMenu ul li.active {
-    background: #aa1212;
+.contentBody-sideMenu ul li a.active {
+    color: #aa1212;
+}
+
+.contentBody-sideMenu ul li a[href*="/"].active:hover {
     color: #fff;
 }
 
@@ -107,7 +122,7 @@ body {
             flex-wrap:  wrap;
 }
 
-.contentBody-main-body > div {
+.group-container {
     border:         1px solid rgb(222,222,222);
     border-radius:  4px;
     margin:         5px;
@@ -116,22 +131,23 @@ body {
 
 }
 
-.contentBody-main-body > div > div {
+.group-container > div {
     display:                    -webkit-flex;
     display:                    flex;
     -webkit-justify-content:    space-around;
             justify-content:    space-around;
 }
 
-.contentBody-main-body > div > div img {
+.group-container > div img {
     width: 128px;
+    height: 128px;
 }
 
-.contentBody-main-body > div > div > div {
+.group-container > div > div {
     width: 100px;
 }
 
-.contentBody-main-body > div > div > div > div:first-of-type {
+.group-container > div > div > div:first-of-type {
     font-size:  25px;
     padding:    10px 0px;
 }

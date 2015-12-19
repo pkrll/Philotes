@@ -1,8 +1,8 @@
 <?php
-define('HOSTNAME', "");
-define('USERNAME', "");
-define('PASSWORD', "");
-define('DATABASE', "");
+define('HOSTNAME', "localhost");
+define('USERNAME', "philotes");
+define('PASSWORD', "philotes");
+define('DATABASE', "philotes");
 
 define('APP_NAME', "Philotes");
 define('APP_NAME_SHORT', "Ph");
