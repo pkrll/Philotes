@@ -11,11 +11,18 @@
         <link rel="stylesheet" href="/public/css/master.css" media="screen" charset="utf-8">
     </head>
     <body>
+        <?php
+            if (isset($error)) {
+        ?>
+        <div id="error">Error: <?=$error["message"]?></div>
+        <?php
+            }
+        ?>
         <div id="topMenu">
             <div style="color:#12aade;"><?=APP_NAME?> <sup style="font-size: 13px"><?=APP_DEVELOPMENT_STAGE?></sup></div>
-            <div>Twitter</div>
-            <div>Facebook</div>
-            <div>Instagram</div>
-            <div>LinkedIn</div>
+            <div><a href="/twitter/">Twitter</a></div>
+            <div><a href="/facebook"/>Facebook</a></div>
+            <div><a href="/instagram/">Instagram</a></div>
+            <div><a href="/linkedin/">LinkedIn</a></div>
         </div>
         <div class="content">

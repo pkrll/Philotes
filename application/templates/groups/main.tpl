@@ -19,7 +19,7 @@
                         <!-- -->
                         <div class="contentBody-main-body">
                         <?php
-                            if (isset($groups) AND empty($groups) == FALSE) {
+                            if (isset($groups) AND count($groups) > 0) {
                                 foreach ($groups as $key => $value) {
                         ?>
                             <!-- -->

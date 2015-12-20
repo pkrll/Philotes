@@ -5,7 +5,12 @@ class GroupsController extends Controller {
 
     protected function main() {
         $groups = $this->model()->fetchGroups();
+        if (isset($groups["error"])) {
+            $error  = $groups["error"];
+            $groups = array();
+        }
 
+        $this->view()->assign("error", $error);
         $this->view()->render("shared/header.tpl");
         $this->view()->assign("groups", $groups);
         $this->view()->render("groups/main.tpl");

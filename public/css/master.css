@@ -11,6 +11,14 @@ body {
     padding: 0;
 }
 
+#error {
+    background: rgb(150,200,200);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
 #topMenu {
     background:rgb(51,51,51);
     color: #fff;
@@ -26,7 +34,12 @@ body {
     font-weight: 200;
 }
 
-#topMenu > div:hover {
+#topMenu > div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#topMenu > div a:hover {
     color: #12aaFF;
     cursor: pointer;
 }
