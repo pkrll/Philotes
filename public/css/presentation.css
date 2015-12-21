@@ -3,7 +3,7 @@
     border-collapse: collapse;
 }
 
-.data-summary tbody tr:hover {
+.data-summary tbody tr.selectable:hover {
     background: rgb(233,233,233);
     cursor: pointer;
 }
@@ -22,4 +22,19 @@
 
 .data-summary .numeric {
     text-align: center;
+}
+
+.data-summary input.textField {
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    outline: none;
+    padding: 6px 5px;
+    width: 100%;
+}
+
+.data-summary input.autosave-input:hover:not(:focus) {
+    background: #ddd;
 }

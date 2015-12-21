@@ -44,6 +44,14 @@ body {
     cursor: pointer;
 }
 
+#topMenu .homeButton a {
+    color:#12aade;
+}
+
+#topMenu .homeButton sup {
+    font-size: 13px;
+}
+
 .content {
     margin:auto;
     width: 70%;
@@ -129,18 +137,22 @@ body {
 }
 
 .contentBody-main-body {
-    display:            -webkit-flex;
-    display:            flex;
-    -webkit-flex-wrap:  wrap;
-            flex-wrap:  wrap;
+    display:                    -webkit-flex;
+    display:                    flex;
+    -webkit-flex-wrap:          wrap;
+            flex-wrap:          wrap;
+    -webkit-justify-content:    space-around;
+            justify-content:    space-around;
 }
+
+/* GROUPS */
 
 .group-container {
     border:         1px solid rgb(222,222,222);
     border-radius:  4px;
     margin:         5px;
     padding:        10px 15px;
-    width:          250px;
+    width:          230px;
 
 }
 
@@ -152,8 +164,8 @@ body {
 }
 
 .group-container > div img {
-    width: 128px;
-    height: 128px;
+    width: 116px;
+    height: 116px;
 }
 
 .group-container > div > div {

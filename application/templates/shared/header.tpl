@@ -10,6 +10,9 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/public/css/master.css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="/public/css/presentation.css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="/public/css/form.css" media="screen" charset="utf-8">
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="/public/javascript/groups.js" type="text/javascript"></script>
     </head>
     <body>
         <?php
@@ -20,7 +23,7 @@
             }
         ?>
         <div id="topMenu">
-            <div style="color:#12aade;"><?=APP_NAME?> <sup style="font-size: 13px"><?=APP_DEVELOPMENT_STAGE?></sup></div>
+            <div class="homeButton"><a href="/"><?=APP_NAME?> <sup><?=APP_DEVELOPMENT_STAGE?></sup></a></div>
             <div><a href="/twitter/">Twitter</a></div>
             <div><a href="/facebook"/>Facebook</a></div>
             <div><a href="/instagram/">Instagram</a></div>

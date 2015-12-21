@@ -30,14 +30,14 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr class="selectable">
                                         <td class="alphanumeric">Account # 1</td>
                                         <td class="numeric">1 200</td>
                                         <td class="numeric">600</td>
                                         <td class="numeric">45 034</td>
                                     </tr>
 
-                                    <tr>
+                                    <tr class="selectable">
                                         <td class="alphanumeric">Account # 2</td>
                                         <td class="numeric">1 200</td>
                                         <td class="numeric">600</td>

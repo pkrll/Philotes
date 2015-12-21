@@ -7,8 +7,8 @@
                         <li><a class="active">View Groups</a></li>
                     </ul>
                     <ul class="subMenu">
-                        <li><a href="/groups/add">Add Group</a></li>
                         <li><a href="/groups/manage">Manage Groups</a></li>
+                        <li><a href="/groups/manage/new">Add Group</a></li>
                     </ul>
                 </div>
                 <div class="contentBody-main-container">

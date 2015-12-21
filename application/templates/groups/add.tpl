@@ -7,8 +7,8 @@
                         <li><a href="/groups/">View Groups</a></li>
                     </ul>
                     <ul class="subMenu">
-                        <li><a class="active">Add Group</a></li>
                         <li><a href="/groups/manage">Manage Groups</a></li>
+                        <li><a class="active">Add Group</a></li>
                     </ul>
                 </div>
                 <div class="contentBody-main-container">
@@ -18,7 +18,16 @@
                         </div>
                         <!-- -->
                         <div class="contentBody-main-body">
-                            Hello World!
+                            <div class="form-container">
+                                <form action="/groups/manage/" method="post">
+                                    Name: <input type="text" placeholder="Name" name="name" class="blue-glow-field">
+                                    <br/>
+                                    Description: <input type="text" placeholder="Description" name="description" class="blue-glow-field">
+                                    <br/>
+                                    &nbsp;
+                                    <input type="submit" value="Create">
+                                </form>
+                            </div>
                         </div>
                         <!-- -->
                     </div>
