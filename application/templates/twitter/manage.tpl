@@ -1,11 +1,15 @@
-            <div class="contentHeader">Twitter</div>
+            <div class="contentHeader">Manage Accounts</div>
             <div class="contentBody">
                 <div class="contentBody-sideMenu">
                     <ul>
-                        <li><a class="active">Overview</a></li>
+                        <li><a href="/twitter">Overview</a></li>
                         <li><a href="/twitter/posts">View Posts</a></li>
                         <li><a href="/twitter/connections">View Connections</a></li>
-                        <li><a href="/twitter/manage">Manage Accounts</a></li>
+                        <li><a class="active">Manage Accounts</a></li>
+                    </ul>
+                    <ul class="subMenu">
+                        <li><a href="/twitter/manage/update">Update Accounts</a></li>
+                        <li><a href="/twitter/manage/import">Import Accounts</a></li>
                     </ul>
                 </div>
                 <div class="contentBody-main-container">
