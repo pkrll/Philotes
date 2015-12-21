@@ -3,7 +3,7 @@
                 <div class="contentBody-sideMenu">
                     <ul>
                         <li><a class="active">Home</a></li>
-                        <li><a href="/profiles/" >View profiles</a></li>
+                        <li><a href="/profiles/">View profiles</a></li>
                         <li><a href="/groups/">View Groups</a></li>
                     </ul>
                 </div>
