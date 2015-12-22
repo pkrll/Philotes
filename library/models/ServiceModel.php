@@ -2,8 +2,6 @@
 use hyperion\core\Model;
 use saturn\session\session;
 
-include_once LIBRARY."/models/ExtendedModel.php";
-
 class ServiceModel extends ExtendedModel {
 
     protected function credentials() {

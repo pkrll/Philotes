@@ -10,7 +10,7 @@
                     </ul>
                     <ul class="subMenu">
                         <li><a href="/groups/manage">Manage Groups</a></li>
-                        <li><a class="active">Add Group</a></li>
+                        <li><a class="active">Create Group</a></li>
                     </ul>
                 </div>
                 <div class="surface">
@@ -21,7 +21,7 @@
                         <!-- -->
                         <div class="body">
                             <div class="formContainer">
-                                <form action="/groups/manage/" method="post">
+                                <form action="/groups/manage/new" method="post">
                                     Name: <input type="text" placeholder="Name" name="name" class="blueFocus">
                                     <br/>
                                     Description: <input type="text" placeholder="Description" name="description" class="blueFocus">

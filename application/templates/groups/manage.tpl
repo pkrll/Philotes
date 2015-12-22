@@ -11,7 +11,7 @@
                     </ul>
                     <ul class="subMenu">
                         <li><a class="active">Manage Groups</a></li>
-                        <li><a href="/groups/manage/new">Add Group</a></li>
+                        <li><a href="/groups/manage/new">Create Group</a></li>
                     </ul>
                 </div>
                 <div class="surface">
@@ -66,3 +66,4 @@
                     </div>
                 </div>
             </div>
+            <script type="text/javascript" src="/public/javascript/groups.js"></script>

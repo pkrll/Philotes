@@ -9,5 +9,7 @@ date_default_timezone_set("Europe/Stockholm");
 
 include_once dirname(__DIR__)."/vendor/autoload.php";
 include_once dirname(__DIR__)."/library/config.php";
+include_once dirname(__DIR__)."/library/models/ExtendedModel.php";
+include_once dirname(__DIR__)."/library/models/ServiceModel.php";
 
 $Bootstrap = new Bootstrap();

@@ -2,8 +2,6 @@
 use Twarpy\Twarpy;
 use saturn\session\session;
 
-include_once LIBRARY."/models/ServiceModel.php";
-
 class TwitterModel extends ServiceModel {
 
     protected function credentials() {
@@ -57,7 +55,7 @@ class TwitterModel extends ServiceModel {
     }
 
     public function fetchListsFromDatabase() {
-        
+
     }
 
     public function fetchListsFromTwitter() {

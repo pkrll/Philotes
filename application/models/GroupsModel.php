@@ -18,7 +18,7 @@ class GroupsModel extends Model {
         $name = $data["name"];
         $desc = $data["description"];
 
-        $query = "INSERT INTO Groups (id, name, description) VALUES (:name, :description)";
+        $query = "INSERT INTO Groups (name, description) VALUES (:name, :description)";
         $param = array(
             "name" => $name,
             "description" => $desc

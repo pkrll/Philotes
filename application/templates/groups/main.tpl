@@ -9,7 +9,7 @@
                     </ul>
                     <ul class="subMenu">
                         <li><a href="/groups/manage">Manage Groups</a></li>
-                        <li><a href="/groups/manage/new">Add Group</a></li>
+                        <li><a href="/groups/manage/new">Create Group</a></li>
                     </ul>
                 </div>
                 <div class="surface">
