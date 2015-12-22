@@ -1,11 +1,11 @@
 .data-summary {
-    width: 100%;
-    border-collapse: collapse;
+    border-collapse:    collapse;
+    width:              100%;
 }
 
 .data-summary tbody tr.selectable:hover {
     background: rgb(233,233,233);
-    cursor: pointer;
+    cursor:     pointer;
 }
 
 .data-summary th, .data-summary td {
@@ -25,16 +25,16 @@
 }
 
 .data-summary input.textField {
-    cursor: pointer;
-    border: 1px solid #fff;
-    font-size: 15px;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    outline: none;
-    padding: 6px 5px;
-    width: 100%;
+    cursor:         pointer;
+    border:         1px solid rgb(255,255,255);
+    font-size:      15px;
+    font-family:    "Lato", sans-serif;
+    font-weight:    300;
+    outline:        none;
+    padding:        6px 5px;
+    width:          100%;
 }
 
 .data-summary input.autosave-input:hover:not(:focus) {
-    background: #ddd;
+    background: rgb(242,242,242);
 }

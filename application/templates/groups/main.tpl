@@ -1,6 +1,7 @@
-            <div class="contentHeader">View Groups</div>
-            <div class="contentBody">
-                <div class="contentBody-sideMenu">
+            <link rel="stylesheet" property="stylesheet" href="/public/css/groups/master.css">
+            <div class="header">View Groups</div>
+            <div class="body">
+                <div class="menu">
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/profiles/" >View profiles</a></li>
@@ -11,13 +12,13 @@
                         <li><a href="/groups/manage/new">Add Group</a></li>
                     </ul>
                 </div>
-                <div class="contentBody-main-container">
-                    <div class="contentBody-main">
-                        <div class="contentBody-main-header">
+                <div class="surface">
+                    <div class="content">
+                        <div class="header">
                             All Groups
                         </div>
                         <!-- -->
-                        <div class="contentBody-main-body">
+                        <div class="body flexbox">
                         <?php
                             if (isset($groups) AND count($groups) > 0) {
                                 foreach ($groups as $key => $value) {

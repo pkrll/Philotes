@@ -3,178 +3,145 @@ html, body {
 }
 
 body {
-    background: rgb(242,242,242);
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
+    background:     rgb(242,242,242);
+    font-family:    "Lato", sans-serif;
+    font-weight:    300;
+    font-size:      15px;
+    margin:         0;
+    padding:        0;
 }
 
-#error {
+#errorBox {
     background: rgb(150,200,200);
-    color: #fff;
+    color:      rgb(255,255,255);
     text-align: center;
-    font-size: 18px;
-    padding: 10px;
+    font-size:  18px;
+    padding:    10px;
 }
 
 #topMenu {
-    background:rgb(51,51,51);
-    color: #fff;
-    display: -webkit-flex;
-    font-family: 'Lato','Yanone Kaffeesatz', sans-serif;
-    font-size: 18px;
-    padding: 10px;
-    -webkit-justify-content: space-around;
-    font-size: 18px;
+    background:                 rgb(51,51,51);
+    color:                      rgb(255,255,255);
+    display:                    -webkit-flex;
+    display:                    flex;
+    font-family:                'Lato','Yanone Kaffeesatz', sans-serif;
+    font-size:                  18px;
+    padding:                    10px;
+    -webkit-justify-content:    space-around;
+            justify-content:    space-around;
 }
 
-#topMenu > div {
-    font-weight: 200;
+#topMenu a {
+    color:              rgb(255,255,255);
+    font-weight:        200;
+    text-decoration:    none;
 }
 
-#topMenu > div a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#topMenu > div a:hover {
-    color: #12aaFF;
+#topMenu a:hover {
+    color:  rgb(30,150,240);
     cursor: pointer;
 }
 
 #topMenu .homeButton a {
-    color:#12aade;
+    color: rgb(18,170,222);
 }
 
 #topMenu .homeButton sup {
     font-size: 13px;
 }
-
-.content {
-    margin:auto;
-    width: 70%;
+/*
+ *  Container
+ */
+.container {
     height: 100%;
+    margin: auto;
+    width:  70%;
 }
 
-.contentHeader {
-    font-size: 22px;
-    margin: 24px 0;
+.container > .header {
+    font-size:  22px;
+    margin:     24px 0;
 }
 
-.contentBody {
-    background: #fff;
-    border:1px solid rgb(222,222,222);
-    border-radius: 6px;
-    display: -webkit-flex;
-    -webkit-justify-content: space-between;
-    min-height: 80%;
+.container > .body {
+    background:                 rgb(255,255,255);
+    border:                     1px solid rgb(222,222,222);
+    border-radius:              6px;
+    display:                    -webkit-flex;
+    display:                    flex;
+    min-height:                 80%;
+    -webkit-justify-content:    space-between;
+            justify-content:    space-between;
 }
 
-.contentBody > div {
-    padding-top: 12px;
+.container .body > div {
+    padding-top:                12px;
+}
+/* CONTENT SIDE MENU */
+.container .body > .menu {
+    border-right:   1px solid rgb(222,222,222);
+    min-width:      130px;
+    width:          20%;
 }
 
-.contentBody > div:first-of-type {
-    width: 20%;
-    min-width: 130px;
-    border-right: 1px solid rgb(222,222,222);
+.container .body > .menu ul {
+    list-style-type:    none;
+    margin:             0;
+    padding:            0;
 }
 
-.contentBody > div:last-of-type {
-    width: 78%;
-}
-
-.contentBody-sideMenu ul.subMenu {
-    border-top: 1px solid rgb(222,222,222);
-}
-
-.contentBody-sideMenu ul {
-    list-style-type: none;
-    margin: 0;
+.container .body > .menu ul li {
     padding: 0;
 }
 
-.contentBody-sideMenu ul li {
-    padding: 0;
-}
-
-.contentBody-sideMenu ul li a {
-    color:              #000;
+.container .body > .menu ul li a {
+    color:              rgb(0,0,0);
     display:            block;
     padding:            12px 10px;
     text-decoration:    none;
 }
 
-
-.contentBody-sideMenu ul li a:hover {
+.container .body > .menu ul li a:hover {
     cursor: default;
 }
 
-
-.contentBody-sideMenu ul li a[href*="/"]:hover {
-    /*background: #;*/
-    color: #12aaff;
+.container .body > .menu ul li a[href*="/"]:hover {
+    color:  rgb(18,170,255);
     cursor: pointer;
 }
 
-.contentBody-sideMenu ul li a.active {
-    color: #aa1212;
+.container .body > .menu ul li a.active {
+    color: rgb(170,18,18);
 }
 
-.contentBody-sideMenu ul li a[href*="/"].active:hover {
-    color: #fff;
+.container .body > .menu ul li a[href*="/"].active:hover {
+    color: rgb(255,255,255);
 }
 
-.contentBody-main {
+.container .body > .menu ul.subMenu {
+    border-top: 1px solid rgb(222,222,222);
+}
+/* CONTENT BODY */
+.container .body > .surface {
+    width: 78%;
+}
+
+.container .body > .surface .content {
     padding: 10px;
 }
 
-.contentBody-main-header {
+.container .body > .surface .content .header {
     font-size:      32px;
     padding-bottom: 12px;
 }
 
-.contentBody-main-body {
+.container .body > .surface .content .body.flexbox {
     display:                    -webkit-flex;
     display:                    flex;
     -webkit-flex-wrap:          wrap;
             flex-wrap:          wrap;
     -webkit-justify-content:    space-around;
             justify-content:    space-around;
-}
-
-/* GROUPS */
-
-.group-container {
-    border:         1px solid rgb(222,222,222);
-    border-radius:  4px;
-    margin:         5px;
-    padding:        10px 15px;
-    width:          230px;
-
-}
-
-.group-container > div {
-    display:                    -webkit-flex;
-    display:                    flex;
-    -webkit-justify-content:    space-around;
-            justify-content:    space-around;
-}
-
-.group-container > div img {
-    width: 116px;
-    height: 116px;
-}
-
-.group-container > div > div {
-    width: 100px;
-}
-
-.group-container > div > div > div:first-of-type {
-    font-size:  25px;
-    padding:    10px 0px;
 }
 
 .footer {

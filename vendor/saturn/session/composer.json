@@ -1,0 +1,22 @@
+{
+    "name": "saturn/session",
+    "version": "1.0.1",
+    "type": "library",
+    "keywords": [
+        "Session"
+    ],
+    "description": "PHP Wrapper class for Sessions.",
+    "authors": [
+        {
+            "name": "Ardalan Samimi",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0",
+    "homepage": "https://github.com/pkrll/Session",
+    "autoload": {
+        "psr-4" : {
+            "saturn\\session\\" : ""
+        }
+    }
+}

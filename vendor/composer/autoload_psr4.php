@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'saturn\\session\\' => array($vendorDir . '/saturn/session'),
     'hyperion\\' => array($vendorDir . '/saturn/hyperion'),
+    'Twarpy\\' => array($vendorDir . '/saturn/twarpy/lib'),
 );

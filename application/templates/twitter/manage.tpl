@@ -1,6 +1,7 @@
-            <div class="contentHeader">Manage Accounts</div>
-            <div class="contentBody">
-                <div class="contentBody-sideMenu">
+            <link rel="stylesheet" property="stylesheet" href="/public/css/presentation.css">
+            <div class="header">Manage Accounts</div>
+            <div class="body">
+                <div class="menu">
                     <ul>
                         <li><a href="/twitter">Overview</a></li>
                         <li><a href="/twitter/posts">View Posts</a></li>
@@ -12,13 +13,13 @@
                         <li><a href="/twitter/manage/import">Import Accounts</a></li>
                     </ul>
                 </div>
-                <div class="contentBody-main-container">
-                    <div class="contentBody-main">
-                        <div class="contentBody-main-header">
+                <div class="surface">
+                    <div class="content">
+                        <div class="header">
                             Overview
                         </div>
                         <!-- -->
-                        <div class="contentBody-main-body">
+                        <div class="body">
                             <!-- -->
 
                             <table class="data-summary">

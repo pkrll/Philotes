@@ -1,6 +1,8 @@
-            <div class="contentHeader">Manage Groups</div>
-            <div class="contentBody">
-                <div class="contentBody-sideMenu">
+            <link rel="stylesheet" property="stylesheet" href="/public/css/groups/form.css">
+            <link rel="stylesheet" property="stylesheet" href="/public/css/form.css">
+            <div class="header">Manage Groups</div>
+            <div class="body">
+                <div class="menu">
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/profiles/" >View profiles</a></li>
@@ -11,18 +13,18 @@
                         <li><a class="active">Add Group</a></li>
                     </ul>
                 </div>
-                <div class="contentBody-main-container">
-                    <div class="contentBody-main">
-                        <div class="contentBody-main-header">
+                <div class="surface">
+                    <div class="content">
+                        <div class="header">
                             Create Group
                         </div>
                         <!-- -->
-                        <div class="contentBody-main-body">
-                            <div class="form-container">
+                        <div class="body">
+                            <div class="formContainer">
                                 <form action="/groups/manage/" method="post">
-                                    Name: <input type="text" placeholder="Name" name="name" class="blue-glow-field">
+                                    Name: <input type="text" placeholder="Name" name="name" class="blueFocus">
                                     <br/>
-                                    Description: <input type="text" placeholder="Description" name="description" class="blue-glow-field">
+                                    Description: <input type="text" placeholder="Description" name="description" class="blueFocus">
                                     <br/>
                                     &nbsp;
                                     <input type="submit" value="Create">

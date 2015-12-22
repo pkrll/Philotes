@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de31cd1eb359eeaae24a85f721923932",
-    "content-hash": "7843a429360cb88c133a734f7e735f81",
+    "hash": "a7768a1e544763848d8ed04300d7a595",
+    "content-hash": "ed2f6150802e506f0889945888437987",
     "packages": [
         {
             "name": "saturn/hyperion",
@@ -48,6 +48,84 @@
                 "mvc"
             ],
             "time": "2015-11-17 12:06:34"
+        },
+        {
+            "name": "saturn/session",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pkrll/Session.git",
+                "reference": "9871b2489647cc3cc9439d52ad4bc4fba3f546f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pkrll/Session/zipball/9871b2489647cc3cc9439d52ad4bc4fba3f546f0",
+                "reference": "9871b2489647cc3cc9439d52ad4bc4fba3f546f0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "saturn\\session\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ardalan Samimi",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Wrapper class for Sessions.",
+            "homepage": "https://github.com/pkrll/Session",
+            "keywords": [
+                "session"
+            ],
+            "time": "2015-08-23 07:45:38"
+        },
+        {
+            "name": "saturn/twarpy",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pkrll/Twarpy.git",
+                "reference": "c4b7081228931979537afee53262fbf15c49ae25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pkrll/Twarpy/zipball/c4b7081228931979537afee53262fbf15c49ae25",
+                "reference": "c4b7081228931979537afee53262fbf15c49ae25",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Twarpy\\": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ardalan Samimi",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple and small PHP library for accessing the Twitter REST API",
+            "homepage": "https://github.com/pkrll/Twarpy",
+            "keywords": [
+                "Twarpy",
+                "twitter"
+            ],
+            "time": "2015-12-22 11:43:43"
         }
     ],
     "packages-dev": [],

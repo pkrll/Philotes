@@ -43,3 +43,8 @@ class ComposerAutoloaderInite49839b6430a6fe1d8d49e523d846dca
         return $loader;
     }
 }
+
+function composerRequiree49839b6430a6fe1d8d49e523d846dca($file)
+{
+    require $file;
+}
